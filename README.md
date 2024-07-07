@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# <a href="https://a07k.github.io/project-cv/">Project - CV</a>
+![Preview](assets/resume.png)
+<h2>Description</h2>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>Project CV is a React-based web application that allows users to create and customize their resume/CV online. It provides an intuitive interface for inputting personal details, education, and work experience, with real-time preview of the resume.</p>
 
-## Available Scripts
+<h2>Features</h2>
 
-In the project directory, you can run:
+<ul>
+  <li>Personal information input</li>
+  <li>Add multiple education and experience entries</li>
+  <li>Collapsible sections for easy editing</li>
+  <li>Hide/show specific entries</li>
+  <li>Real-time resume preview</li>
+  <li>Customizable resume layout</li>
+  <li>Template loading and clearing functionality</li>
+</ul>
 
-### `npm start`
+<h2>Project Structure</h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<pre><code>project-cv/
+├── src/
+│   ├── components/
+│   │   ├── personal-info/
+│   │   │   └── PersonalDetails.js
+│   │   ├── education/
+│   │   │   └── AddEducationSection.js
+│   │   ├── experience/
+│   │   │   └── AddExperienceSection.js
+│   │   ├── Resume.js
+│   │   ├── TemplateLoader.js
+│   │   ├── Sidebar.js
+│   │   └── Customize.js
+│   ├── styles/
+│   │   └── App.css
+│   ├── App.js
+│   ├── example-data.js
+│   └── index.js
+├── public/
+│   └── index.html
+├── package.json
+└── README.md
+</code></pre>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2>Technologies Used</h2>
 
-### `npm test`
+<ul>
+  <li>React</li>
+  <li>JavaScript (ES6+)</li>
+  <li>CSS</li>
+  <li>uniqid (for generating unique IDs)</li>
+</ul>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2>Setup and Installation</h2>
 
-### `npm run build`
+<ol>
+  <li>Clone the repository:
+    <pre><code>git clone https://github.com/your-username/project-cv.git</code></pre>
+  </li>
+  <li>Navigate to the project directory:
+    <pre><code>cd project-cv</code></pre>
+  </li>
+  <li>Install dependencies:
+    <pre><code>npm install</code></pre>
+  </li>
+  <li>Start the development server:
+    <pre><code>npm start</code></pre>
+  </li>
+  <li>Open your browser and visit <code>http://localhost:3000</code></li>
+</ol>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h2>Usage</h2>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<ol>
+  <li>Fill in your personal details in the Personal Information section.</li>
+  <li>Add your education history using the Education section.</li>
+  <li>Input your work experience in the Experience section.</li>
+  <li>Use the Customize tab to change the resume layout.</li>
+  <li>View your resume in real-time on the right side of the screen.</li>
+  <li>Use the Template Loader to load example data or clear the form.</li>
+</ol>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h2>Contributing</h2>
 
-### `npm run eject`
+<p>Contributions are welcome! Please feel free to submit a Pull Request.</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<h2>License</h2>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p>This project is open source and available under the <a href="LICENSE">MIT License</a>.</p>
