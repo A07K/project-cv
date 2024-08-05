@@ -2,29 +2,29 @@ import uniqid from "uniqid";
 
 const exampleData = {
   personalInfo: {
-    fullName: "Josephine Meyers",
-    email: "josephine.meyers@mail.co.uk",
-    phoneNumber: "+44 3245 5521 5521",
-    address: "London, UK",
+    fullName: "Aditya Kushwaha",
+    email: "kushwaha07adity@gmail.com",
+    phoneNumber: "+91 9326690000",
+    address: "Mumbai, Maharshtra",
   },
 
   sections: {
     educations: [
       {
-        degree: "Bachelors in Economics",
-        schoolName: "London City University",
-        location: "New York City, US",
-        startDate: "08/2020",
-        endDate: "present",
+        degree: "Bachelors in Engineering",
+        schoolName: "Vivekanand Education Society's Institute Of Technology",
+        location: "Chembur, Mumbai",
+        startDate: "01/2020",
+        endDate: "04/2024",
         isCollapsed: true,
         isHidden: false,
         id: uniqid(),
       },
       {
-        degree: "Master's Degree in Math",
+        degree: "Master of Business Administration",
         schoolName: "Hidden University",
-        location: "New York City, US",
-        startDate: "08/2020",
+        location: "Maharashtra, India",
+        startDate: "08/2024",
         endDate: "present",
         isCollapsed: true,
         isHidden: true,
